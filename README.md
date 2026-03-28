@@ -21,18 +21,8 @@ KGs are often incomplete, missing entities and relations, an issue addressed by 
 ### Keywords: Knowledge Graph Embedding, Link Prediction, Evaluation Metrics, Multi-criteria Decision Making, Model Ranking, Performance Aggregation
 
 
----
+## Structure
 
-## Key Features
-
-- Automatic detection of models and criteria from CSV
-- Support for **beneficial** (higher better: MRR, Hits@k) and **non-beneficial** (lower better: MR) criteria
-- Two weight strategies: Equal weights or custom per metric type
-- Full computation of PDA, NDA, WPDA, WNDA, and final **M** score
-- Stable and interpretable rankings with linear time complexity **O(nm)**
-- Saves all intermediate results (Average, PDA, NDA, WPDA, WNDA, final ranking)
-
----
 
 #
 KG-EDAS/  
@@ -57,8 +47,6 @@ KG-EDAS/
 ![KG-EDAS Figure 1](FB237_MRR_Hit1_vs_EDAS.png)
 
 ![KG-EDAS Figure 1](Combined_MRR_Hit1_vs_EDAS.png)
-
-*Left: Relation prediction (mean MRR vs EDAS M). Right: Mean Hit@1 vs EDAS M values.*
 
 
 
@@ -114,7 +102,7 @@ Average       0.3347         0.2501         0.3681          0.4983      0.4956  
 8  MEM-KGC (w/o EP)  0.5789    0.0422    0.0005
 9            HAKE  0.5284    0.0229    0.0089
 
-Full results saved to: ./outputs/tail_new
+Full results saved to: ./outputs/
 
 
 
