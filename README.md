@@ -132,7 +132,7 @@ To evaluate the stability and robustness of **KG-EDAS**, we conducted an ablatio
   year      = {2025},  
   pages     = {2823-2832},  
   doi       = {10.1109/BigData66926.2025.11402521},  
-  url       = {https://www.computer.org/csdl/proceedings-article/bigdata/2025/11402521/2eDtzuJkX9S},    
+  url       = {[IEEE Big Data 2025](https://www.computer.org/csdl/proceedings-article/bigdata/2025/11402521/2eDtzuJkX9S)},    
   publisher = {IEEE Computer Society},  
   address   = {Los Alamitos, CA, USA},  
   month     = {Dec}  
